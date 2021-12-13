@@ -75,5 +75,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 Note that the results maybe fluctuate due to [the inherent randomness](https://pytorch.org/docs/stable/notes/randomness.html).
 
 ## Acknowledgment
-Thanks to the Cluster-GCN implementation:
+Thanks to the following implementations:
 * [Cluster-GCN](https://github.com/benedekrozemberczki/ClusterGCN)
+* [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric)

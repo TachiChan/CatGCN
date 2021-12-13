@@ -4,7 +4,7 @@ This is our Pytorch implementation for the paper:
 >Weijian Chen, Fuli Feng, Qifan Wang, Xiangnan He, Chonggang Song, Guohui Ling and Yongdong Zhang. [CatGCN: Graph Convolutional Networks with Categorical Node Features](https://arxiv.org/abs/2009.05303). 
 
 ## Citation 
-If you want to use our codes and dataset in your research, please cite:
+If you want to use our codes and datasets in your research, please cite:
 ```
 @article{CatGCN,
   author    = {Weijian Chen and
@@ -33,8 +33,11 @@ The code has been tested running under Python 3.6.8. The required packages are a
 * texttable == 1.6.2
 
 ## Training and Evaluation
-The description of commands has been clearly stated in the codes (see the parameter_parser function in parser.py).
+The description of commands has been clearly stated in the codes (see the 'parameter_parser' function in parser.py).
 In addition, we provide scripts in the "sh" folder to reproduce the results in the paper, including the baseline methods.
+
+The processed datasets can be downloaded [here(https://drive.google.com/file/d/1N5dLm0jseRdD7Tly6F4GYJFGvRmdHH_M/view?usp=sharing)], and the corresponding [process files(https://github.com/TachiChan/Data_Process)] are also provided.
+
 Running commands of CatGCN are as follows:
 * Tencent-age, CatGCN
 ```

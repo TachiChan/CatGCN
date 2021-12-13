@@ -36,7 +36,7 @@ The code has been tested running under Python 3.6.8. The required packages are a
 The description of commands has been clearly stated in the codes (see the 'parameter_parser' function in parser.py).
 In addition, we provide scripts in the "sh" folder to reproduce the results in the paper, including the baseline methods.
 
-The processed datasets can be downloaded [here(https://drive.google.com/file/d/1N5dLm0jseRdD7Tly6F4GYJFGvRmdHH_M/view?usp=sharing)], and the corresponding [process files(https://github.com/TachiChan/Data_Process)] are also provided.
+The processed datasets can be downloaded [here](https://drive.google.com/file/d/1N5dLm0jseRdD7Tly6F4GYJFGvRmdHH_M/view?usp=sharing), and the corresponding [process files](https://github.com/TachiChan/Data_Process) are also provided.
 
 Running commands of CatGCN are as follows:
 * Tencent-age, CatGCN

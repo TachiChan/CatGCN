@@ -1,24 +1,20 @@
 # CatGCN
 This is our Pytorch implementation for the paper:
 
->Weijian Chen, Fuli Feng, Qifan Wang, Xiangnan He, Chonggang Song, Guohui Ling and Yongdong Zhang. [CatGCN: Graph Convolutional Networks with Categorical Node Features](https://arxiv.org/abs/2009.05303). 
+>Weijian Chen, Fuli Feng, Qifan Wang, Xiangnan He, Chonggang Song, Guohui Ling and Yongdong Zhang. [CatGCN: Graph Convolutional Networks with Categorical Node Features](https://arxiv.org/abs/2009.05303). In IEEE Transactions on Knowledge and Data Engineering, doi: 10.1109/TKDE.2021.3133013.
 
 ## Citation 
 If you want to use our codes and datasets in your research, please cite:
 ```
-@article{CatGCN,
-  author    = {Weijian Chen and
-               Fuli Feng and
-               Qifan Wang and
-               Xiangnan He and
-               Chonggang Song and
-               Guohui Ling and
-               Yongdong Zhang},
-  title     = {CatGCN: Graph Convolutional Networks with Categorical Node Features},
-  journal   = {CoRR},
-  volume    = {abs/2009.05303},
-  year      = {2020}
-}
+@ARTICLE{CatGCN,  
+author={Chen, Weijian and Feng, Fuli and Wang, Qifan and He, Xiangnan and Song, Chonggang and Ling, Guohui and Zhang, Yongdong},  
+journal={IEEE Transactions on Knowledge and Data Engineering},   
+title={CatGCN: Graph Convolutional Networks with Categorical Node Features},   
+year={2021},  
+volume={},  
+number={},  
+pages={1-1},  
+doi={10.1109/TKDE.2021.3133013}}
 ```
 ## Environment Requirement
 The code has been tested running under Python 3.6.8. The required packages are as follows:

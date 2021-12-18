@@ -84,7 +84,7 @@ class StackedGNN(nn.Module):
             for i in range(self.num_grn_layer):
                 self.grn_layer_stack.append(
                         nn.Linear(self.grn_units[i], self.grn_units[i + 1], bias=True))
-        if self.args.graph_refining == 'cosimi':
+        elif self.args.graph_refining == 'cosimi':
             self.num_grn_layer = len(self.grn_units) - 1
             self.grn_layer_stack = nn.ModuleList()
             for i in range(self.num_grn_layer):
